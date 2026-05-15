@@ -13,3 +13,4 @@ npm-debug.log*
 *.orig
 *~
 \#*#
+!/make-fnnas/u-boot/rockchip/nanopi-r76s
