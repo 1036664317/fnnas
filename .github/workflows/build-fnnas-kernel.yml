@@ -25,7 +25,7 @@ on:
       debs_repo:
         description: "Set fnnas debs repository"
         required: false
-        default: "${{ github.repository }}"
+        default: "ophub/fnnas"
       debs_install:
         description: "Install kernel debs files"
         required: false

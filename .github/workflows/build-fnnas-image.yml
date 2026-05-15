@@ -237,10 +237,10 @@ on:
       kernel_repo:
         description: "Set fnnas kernel repository"
         required: false
-        default: "${{ github.repository }}"
+        default: "ophub/fnnas"
         type: choice
         options:
-          - "${{ github.repository }}"
+          - "ophub/fnnas"
       fnnas_kernel:
         description: "Select fnnas kernel version"
         required: false
